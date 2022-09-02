@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BinaryTree</title>
+    
+    <link rel="stylesheet" href="structure.css" type="text/css">
+</head>
+<h1>Productos con BinaryTree</h1>
+<body>
+    <div class="container">
+    <section>
+        <form>
+            <label for="Cod" class="box">Codigo:  <input type="Number" id="Cod" class="cajas"></label><br><br>
+            <label for="Nom" class="box">Nombre:  <input type="Text" id="Nom" class="cajas"></label><br><br>
+            <label for="Can" class="box">Cantidad:  <input type="Number" id="Can" class="cajas"></label><br><br>
+            <label for="Pre" class="box">Precio:  <input type="Number" id="Pre" class="cajas"></label><br><br>
+
+            <button class="btn" type="button" id="BtnAdd">Agregar</button>
+            <button class="btn" type="button" id="BtnListPreOrder">Listar Pre ORDER </button>
+            <button class="btn" type="button" id="BtnListInOrder">Listar In orden </button>
+            <button class="btn" type="button" id="BtnListPosOrder">Listar Post ORDER</button>
+            <button class="btn" type="button" id="BtnFind">BUSCAR</button>
+            <button class="btn" type="reset">Cancelar</button>
+            <button class="btn" type="button" id="BtnLimpiar">Limpiar</button>
+        </form>
+    </section>
+    </div>
+    <div class="results">
+    <section>
+        <div id="detalles">
+            <p>Información</p><br>
+        </div>
+        <div id="arbol">
+            <br><P>Listados</P>
+        </div>
+    </section>
+    </div>
+ <script src="app.js"></script>
+</body>
+</html>
